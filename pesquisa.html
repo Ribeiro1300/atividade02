@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    <link rel="stylesheet" href="css/estilo.css"> </link>
+
+    <title>Atividade Final</title>
+    <style>
+        .image-container 
+            {
+                background-image: url("img/img4.jpg");
+                background-size: cover;
+                position: relative;
+                height: 400px;
+            }
+            
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <div id="text">Crazy Games</div>
+    </div>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Sugestões 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="resumos.html">Resumos</a>
+                <a href="videos.html">Vídeos</a>
+                <a href="precos.html">Preços</a>
+            </div>
+        </div> 
+        <a href="mapa.html">Mapa</a>
+        <a href="pesquisa.html">Pesquisa</a>
+        
+    </div>
+    <div class="container">
+        <form>
+            <h2>Fale conosco</h2>
+            <p>Nos ajude a melhorar, deixe aqui sua opinião ou sugestão</p>
+            <form>
+            <div class="form-group">
+                    <div class="col-xs-4">
+                        <label for="usr">Name:</label>
+                        <input type="text" class="form-control" id="usr">
+                    </div>    
+            </div>
+            <div class="col-xs-4">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            </form>
+        </div>
+        <br>
+        <div class="container">
+            <p>Aceita receber e-mails promocionais?</p>
+            <form>
+            <label class="radio-inline">
+                <input type="radio" name="optradio" checked>Sim
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Não
+            </label>
+            </form>
+        </div>
+        <br>
+        <div class="container" >
+            <p style="font-size: 18px;">Considerando as informções do site, qual jogo você teve mais interesse em jogar?</p>
+            <form>
+            <label class="radio-inline">
+                <input type="radio" name="optradio" checked>Last of Us Part 2
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">Resident Evil 2 REMAKE
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="optradio">CyberPunk 2077
+            </label>
+            </form>
+        </div>
+        <br>
+        <div class="container">
+            <form>
+            <div class="form-group">
+                <label for="comment">Comentário:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Enviar</button>
+        </form>
+    
+    <footer class="footer">
+        
+        <p>E-mail: jhonatan_dribeiro@hotmail.com<br>
+            Tel: (21) 3867-3889<br>
+            Cel: (21) 97134-6447</p>
+
+    </footer>
+    
+</body>
+</html>
